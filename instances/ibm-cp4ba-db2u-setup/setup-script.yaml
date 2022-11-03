@@ -6,7 +6,7 @@ data:
   setup.sh: |
     #!/bin/bash
       set -x
-      sleep 600
+      sleep 1000
       curl -o /tmp/client.tgz https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/4.10.38/openshift-client-linux.tar.gz
       cd /tmp
       tar -xzf client.tgz
